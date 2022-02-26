@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #fff;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+}
+.navigation
+{
+    background-color: dodgerblue;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    border-left: 10px solid dodgerblue;
+}
+.navigation ul li a 
+{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.navigation ul li a 
+{
+    font-size: 20px;
+    line-height: 50px;
+}
+.navigation ul li:hover
+{
+    background-color: #fff;
+}
+.navigation ul li:hover a
+{
+    color: black;
+
+}
+.navigation ul li:nth-child(1)
+{
+    margin-bottom: 40px;
+    pointer-events: none;
+}
+.log
+{
+    font-size: 35px;
+}
+a
+{
+    margin-left: 25px;
+}
+.navigation ul li
+{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.navigation ul li:hover
+{
+    border-top: 4px  solid rgb(111, 0, 255) ;
+    border-bottom: 4px solid rgb(111, 0, 255); 
+}
